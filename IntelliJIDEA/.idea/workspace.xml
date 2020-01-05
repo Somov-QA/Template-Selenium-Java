@@ -116,6 +116,10 @@
       <screen x="1440" y="40" width="1440" height="860" />
     </state>
     <state x="1614" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1440.860/1440.40.1440.860@1440.40.1440.860" timestamp="1578206932719" />
+    <state x="1961" y="236" key="FileChooserDialogImpl" timestamp="1578207934756">
+      <screen x="1440" y="40" width="1440" height="860" />
+    </state>
+    <state x="1961" y="236" key="FileChooserDialogImpl/0.40.1440.860/1440.40.1440.860@1440.40.1440.860" timestamp="1578207934756" />
     <state width="1397" height="169" key="GridCell.Tab.0.bottom" timestamp="1578207118459">
       <screen x="1440" y="40" width="1440" height="860" />
     </state>
@@ -132,14 +136,15 @@
       <screen x="1440" y="40" width="1440" height="860" />
     </state>
     <state width="1397" height="169" key="GridCell.Tab.0.right/0.40.1440.860/1440.40.1440.860@1440.40.1440.860" timestamp="1578207118459" />
-    <state x="1661" y="113" key="SettingsEditor" timestamp="1578205407234">
+    <state x="1661" y="113" key="SettingsEditor" timestamp="1578207942409">
       <screen x="1440" y="40" width="1440" height="860" />
     </state>
-    <state x="1661" y="113" key="SettingsEditor/0.40.1440.860/1440.40.1440.860@1440.40.1440.860" timestamp="1578205407234" />
-    <state x="416" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1578205366754">
-      <screen x="0" y="40" width="1440" height="860" />
+    <state x="1661" y="113" key="SettingsEditor/0.40.1440.860/1440.40.1440.860@1440.40.1440.860" timestamp="1578207942409" />
+    <state x="1856" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1578207902654">
+      <screen x="1440" y="40" width="1440" height="860" />
     </state>
     <state x="416" y="294" key="com.intellij.ide.util.TipDialog/0.40.1440.860/1440.40.1440.860@0.40.1440.860" timestamp="1578205366754" />
+    <state x="1856" y="294" key="com.intellij.ide.util.TipDialog/0.40.1440.860/1440.40.1440.860@1440.40.1440.860" timestamp="1578207902654" />
   </component>
   <component name="masterDetails">
     <states>
