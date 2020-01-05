@@ -9,8 +9,3 @@
 <br>JUnit: https://mvnrepository.com/artifact/junit/junit/4.12
 <br>(смотрите файл pom.xml)
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
