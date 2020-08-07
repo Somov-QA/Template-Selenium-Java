@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fdc810aa-3e31-4622-8d3e-c26d0b3e1aee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Support/Helper/Selenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Support/PageObjects/GooglePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Support/StepObjects/GoogleSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/acceptance/TestSampleJUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/acceptance/TestSampleTestNG.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/GoogleSearchPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/GoogleSearchPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Test2.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,27 +37,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1VvOuHqhCJbcJhYxcWcQ9eIX16A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.Test2">
+  <component name="RunManager" selected="JUnit.TestSampleJUnit">
     <configuration name="Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IntelliJIDEA" />
       <extension name="coverage">
@@ -75,29 +88,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSampleJUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IntelliJIDEA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.acceptance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.acceptance" />
+      <option name="MAIN_CLASS_NAME" value="tests.acceptance.TestSampleJUnit" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.Test1" />
       <item itemvalue="JUnit.Test2" />
+      <item itemvalue="JUnit.TestSampleJUnit" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSampleJUnit" />
         <item itemvalue="JUnit.Test2" />
         <item itemvalue="JUnit.Test1" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
