@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdc810aa-3e31-4622-8d3e-c26d0b3e1aee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Support/Helper/Selenium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Support/PageObjects/GooglePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Support/StepObjects/GoogleSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/acceptance/TestSampleJUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/acceptance/TestSampleTestNG.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/GoogleSearchPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Test2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjects/GoogleSearchPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/acceptance/TestSampleTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/acceptance/TestSampleTestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/acceptance/TestSampleTestNG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/acceptance/TestSampleTestNG.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +50,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.TestSampleJUnit">
+  <component name="RunManager" selected="TestNG.TestSampleTestNG">
     <configuration name="Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IntelliJIDEA" />
       <extension name="coverage">
@@ -103,13 +96,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSampleTestNG" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="IntelliJIDEA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.acceptance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.acceptance" />
+      <option name="MAIN_CLASS_NAME" value="tests.acceptance.TestSampleTestNG" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.Test1" />
       <item itemvalue="JUnit.Test2" />
       <item itemvalue="JUnit.TestSampleJUnit" />
+      <item itemvalue="TestNG.TestSampleTestNG" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSampleTestNG" />
         <item itemvalue="JUnit.TestSampleJUnit" />
         <item itemvalue="JUnit.Test2" />
         <item itemvalue="JUnit.Test1" />
@@ -131,39 +143,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1614" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578206932719">
-      <screen x="1440" y="40" width="1440" height="860" />
+    <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1596787999036">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="1614" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1440.860/1440.40.1440.860@1440.40.1440.860" timestamp="1578206932719" />
-    <state x="1961" y="236" key="FileChooserDialogImpl" timestamp="1578207934756">
-      <screen x="1440" y="40" width="1440" height="860" />
+    <state width="1877" height="277" key="GridCell.Tab.0.bottom/1920.223.1440.860/0.40.1920.1040@0.40.1920.1040" timestamp="1596787999036" />
+    <state width="1877" height="277" key="GridCell.Tab.0.center" timestamp="1596787999036">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="1961" y="236" key="FileChooserDialogImpl/0.40.1440.860/1440.40.1440.860@1440.40.1440.860" timestamp="1578207934756" />
-    <state width="1397" height="169" key="GridCell.Tab.0.bottom" timestamp="1578207118459">
-      <screen x="1440" y="40" width="1440" height="860" />
+    <state width="1877" height="277" key="GridCell.Tab.0.center/1920.223.1440.860/0.40.1920.1040@0.40.1920.1040" timestamp="1596787999036" />
+    <state width="1877" height="277" key="GridCell.Tab.0.left" timestamp="1596787999036">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1397" height="169" key="GridCell.Tab.0.bottom/0.40.1440.860/1440.40.1440.860@1440.40.1440.860" timestamp="1578207118459" />
-    <state width="1397" height="169" key="GridCell.Tab.0.center" timestamp="1578207118459">
-      <screen x="1440" y="40" width="1440" height="860" />
+    <state width="1877" height="277" key="GridCell.Tab.0.left/1920.223.1440.860/0.40.1920.1040@0.40.1920.1040" timestamp="1596787999036" />
+    <state width="1877" height="277" key="GridCell.Tab.0.right" timestamp="1596787999036">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1397" height="169" key="GridCell.Tab.0.center/0.40.1440.860/1440.40.1440.860@1440.40.1440.860" timestamp="1578207118459" />
-    <state width="1397" height="169" key="GridCell.Tab.0.left" timestamp="1578207118459">
-      <screen x="1440" y="40" width="1440" height="860" />
-    </state>
-    <state width="1397" height="169" key="GridCell.Tab.0.left/0.40.1440.860/1440.40.1440.860@1440.40.1440.860" timestamp="1578207118459" />
-    <state width="1397" height="169" key="GridCell.Tab.0.right" timestamp="1578207118459">
-      <screen x="1440" y="40" width="1440" height="860" />
-    </state>
-    <state width="1397" height="169" key="GridCell.Tab.0.right/0.40.1440.860/1440.40.1440.860@1440.40.1440.860" timestamp="1578207118459" />
-    <state x="1661" y="113" key="SettingsEditor" timestamp="1578207942409">
-      <screen x="1440" y="40" width="1440" height="860" />
-    </state>
-    <state x="1661" y="113" key="SettingsEditor/0.40.1440.860/1440.40.1440.860@1440.40.1440.860" timestamp="1578207942409" />
-    <state x="1856" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1578207902654">
-      <screen x="1440" y="40" width="1440" height="860" />
-    </state>
-    <state x="416" y="294" key="com.intellij.ide.util.TipDialog/0.40.1440.860/1440.40.1440.860@0.40.1440.860" timestamp="1578205366754" />
-    <state x="1856" y="294" key="com.intellij.ide.util.TipDialog/0.40.1440.860/1440.40.1440.860@1440.40.1440.860" timestamp="1578207902654" />
+    <state width="1877" height="277" key="GridCell.Tab.0.right/1920.223.1440.860/0.40.1920.1040@0.40.1920.1040" timestamp="1596787999036" />
   </component>
   <component name="masterDetails">
     <states>
