@@ -18,8 +18,8 @@ public class TestSampleJUnit {
 
     @Test
     public void testSearch() {
-        Selenium.driver.get("https://www.google.com/");
         GoogleSteps tester = new GoogleSteps(Selenium.driver);
+        tester.driver.get("https://www.google.com/");
         tester.setValueInSearch("GeForce 1650", GooglePage.inputSearchName);
         int result = tester.getCountResultSearch(GooglePage.searchResultsClass);
         Assert.assertNotEquals(0, result);

@@ -8,15 +8,15 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 public class GoogleSteps {
-    private final WebDriver _driver;
+    public final WebDriver driver;
 
-    public GoogleSteps(WebDriver driver) {
-        _driver = driver;
+    public GoogleSteps(WebDriver webdriver) {
+        driver = webdriver;
     }
 
     public GoogleSteps setValueInSearch(String value, String nameField) {
         By searchField = By.name(nameField);
-        WebElement search = _driver.findElement(searchField);
+        WebElement search = driver.findElement(searchField);
         search.sendKeys(value);
         search.sendKeys(Keys.ENTER);
         return this;
@@ -25,7 +25,7 @@ public class GoogleSteps {
     public int getCountResultSearch(String classResults)
     {
         By searchResult = By.className(classResults);
-        List<WebElement> elements = _driver.findElements(searchResult);
+        List<WebElement> elements = driver.findElements(searchResult);
         return elements.size();
     }
 }
