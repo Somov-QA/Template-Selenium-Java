@@ -1,5 +1,6 @@
 package Support.StepObjects;
 
+import Support.PageObjects.GooglePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -14,18 +15,15 @@ public class GoogleSteps {
         driver = webdriver;
     }
 
-    public GoogleSteps setValueInSearch(String value, String nameField) {
-        By searchField = By.name(nameField);
-        WebElement search = driver.findElement(searchField);
-        search.sendKeys(value);
-        search.sendKeys(Keys.ENTER);
-        return this;
+    public void setValueInSearch(String value) {
+        WebElement inputSearch = GooglePage.getInputSearch(driver);
+        inputSearch.sendKeys(value);
+        inputSearch.sendKeys(Keys.ENTER);
     }
 
-    public int getCountResultSearch(String classResults)
+    public int getCountResultSearch()
     {
-        By searchResult = By.className(classResults);
-        List<WebElement> elements = driver.findElements(searchResult);
-        return elements.size();
+        List<WebElement> resultElements = GooglePage.getListResultsSearch(driver);
+        return resultElements.size();
     }
 }

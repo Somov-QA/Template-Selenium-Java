@@ -19,8 +19,8 @@ public class TestSampleTestNG {
     public void testSearch() {
         GoogleSteps tester = new GoogleSteps(Selenium.driver);
         tester.driver.get("https://www.google.com/");
-        tester.setValueInSearch("GeForce 1650", GooglePage.inputSearchName);
-        int result = tester.getCountResultSearch(GooglePage.searchResultsClass);
+        tester.setValueInSearch("GeForce 1650");
+        int result = tester.getCountResultSearch();
         Assert.assertNotEquals(0, result);
         System.out.println("Tests finished: SUCCESS");
     }

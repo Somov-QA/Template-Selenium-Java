@@ -6,15 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fdc810aa-3e31-4622-8d3e-c26d0b3e1aee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Support/Helper/Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Support/Helper/Selenium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Support/PageObjects/GooglePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Support/PageObjects/GooglePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Support/StepObjects/GoogleSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Support/StepObjects/GoogleSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Support/PageObjects/GooglePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Support/PageObjects/GooglePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Support/StepObjects/GoogleSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Support/StepObjects/GoogleSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/acceptance/TestSampleJUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/acceptance/TestSampleJUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/acceptance/TestSampleTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/acceptance/TestSampleTestNG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Support/Helper/Selenium.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Support/PageObjects/GooglePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Support/StepObjects/GoogleSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Test1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/acceptance/TestSampleJUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/acceptance/TestSampleJUnit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/acceptance/TestSampleTestNG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/acceptance/TestSampleTestNG.class" afterDir="false" />
     </list>
@@ -63,7 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestSampleTestNG">
+  <component name="RunManager" selected="JUnit.TestSampleJUnit">
     <configuration name="Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IntelliJIDEA" />
       <extension name="coverage">
@@ -134,8 +129,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestSampleTestNG" />
         <item itemvalue="JUnit.TestSampleJUnit" />
+        <item itemvalue="TestNG.TestSampleTestNG" />
         <item itemvalue="JUnit.Test2" />
         <item itemvalue="JUnit.Test1" />
       </list>
@@ -164,22 +159,22 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="756" y="441" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/1920.223.1440.860/0.40.1920.1040@0.40.1920.1040" timestamp="1597556700285" />
-    <state width="1877" height="148" key="GridCell.Tab.0.bottom" timestamp="1597556932282">
+    <state width="1877" height="210" key="GridCell.Tab.0.bottom" timestamp="1598250646090">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="148" key="GridCell.Tab.0.bottom/1920.223.1440.860/0.40.1920.1040@0.40.1920.1040" timestamp="1597556932282" />
-    <state width="1877" height="148" key="GridCell.Tab.0.center" timestamp="1597556932282">
+    <state width="1877" height="210" key="GridCell.Tab.0.bottom/1920.223.1440.860/0.40.1920.1040@0.40.1920.1040" timestamp="1598250646090" />
+    <state width="1877" height="210" key="GridCell.Tab.0.center" timestamp="1598250646090">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="148" key="GridCell.Tab.0.center/1920.223.1440.860/0.40.1920.1040@0.40.1920.1040" timestamp="1597556932282" />
-    <state width="1877" height="148" key="GridCell.Tab.0.left" timestamp="1597556932282">
+    <state width="1877" height="210" key="GridCell.Tab.0.center/1920.223.1440.860/0.40.1920.1040@0.40.1920.1040" timestamp="1598250646090" />
+    <state width="1877" height="210" key="GridCell.Tab.0.left" timestamp="1598250646090">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="148" key="GridCell.Tab.0.left/1920.223.1440.860/0.40.1920.1040@0.40.1920.1040" timestamp="1597556932282" />
-    <state width="1877" height="148" key="GridCell.Tab.0.right" timestamp="1597556932282">
+    <state width="1877" height="210" key="GridCell.Tab.0.left/1920.223.1440.860/0.40.1920.1040@0.40.1920.1040" timestamp="1598250646090" />
+    <state width="1877" height="210" key="GridCell.Tab.0.right" timestamp="1598250646090">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="148" key="GridCell.Tab.0.right/1920.223.1440.860/0.40.1920.1040@0.40.1920.1040" timestamp="1597556932282" />
+    <state width="1877" height="210" key="GridCell.Tab.0.right/1920.223.1440.860/0.40.1920.1040@0.40.1920.1040" timestamp="1598250646090" />
   </component>
   <component name="masterDetails">
     <states>
